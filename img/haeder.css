@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(21, 25, 32);
+    background-image: url(pontos.png);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+   
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    width: 20%;
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+
+.logo {
+    height: 30px;
+    width: 65px;
+}
+
+nav {
+    width: 80%;
+    padding-top: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+a:hover{
+    background-color: rgb(143, 248, 23);
+    color: black;
+    border-radius: 80px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    
+}
