@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: black; 
+  height: 100vh;
+  color: white;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+.Logo img {
+    
+    width: 50%;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+.nav-bar { 
+    padding-left: 4rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.1rem;
+
+}
+
+a.Home {
+    text-decoration: underline;
+    font-weight: 800;
+    color: #e63d00;
+
+}
+
+main {
+    width: 100%;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+main article {
+    width: 50%;
+    float: left;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+
+}
+
+.foto-centro {
+    width: 50%;
+    float: right;
+    
+}
+
+.foto-centro img {
+    width: 400px;
+    height: 400px;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+div.Inputs {
+    display: flex;
+    gap: .5rem;
+
+}
+
+div.Inputs input {
+    border: none;
+    outline: none;
+    align-items: flex-start;
+    border-radius: 1rem;
+}
+
+ input.btn {
+    background-color: white;
+    color: #fc8213;
+    padding: 1rem 2rem;
+    font-weight:600;
+    margin-top: 2rem;
+ }
+
+ input.btnn {
+    background-image: linear-gradient(to bottom, #feb901, #fe5702);
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+ }
